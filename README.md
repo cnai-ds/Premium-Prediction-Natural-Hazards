@@ -22,13 +22,13 @@ The difficulty was lying on:
 - To reduce overfitting, stacked combined Boostong and Bagging
 
 <p align="center">
-<img src="./03_Image/EarthquakeRisk.png" alt="Earthquake risk and premium" width="600">
+<img src="./03_Image/EarthquakeRisk.png" alt="Earthquake risk and premium" width="500">
 </p>
-<br>
+<br><br><br>
 <p align="center">
-<img src="./03_Image/ModelBuildingApproach.png" alt="Approach" width="600">
+<img src="./03_Image/ModelBuildingApproach.png" alt="Approach" width="700">
 </p>
-<br>
+<br><br><br>
 <p align="center">
 <img src="./03_Image/ShapValue.png" alt="Model interpretation" width="600">
 </p>
