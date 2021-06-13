@@ -1,11 +1,11 @@
 # SCOR Datathon 2021
 <p align="center">
-<img src="./images/satellite.png" alt="satellite" width="300">
+<img src="./03_Image/SCOR-DS-2021.png" alt="SCOR-Datathon" width="500">
 </p>
 
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
 
-# About competition
+## About competition
 Data science master students from grandes écoles including X and ESCP had worked 4 months building a model to predict premium of propaty damage and business interuption. <br>
 In recent years, the gap between market agreed premium and the reference premium has been increasing, due to the unpredictability of catastorophic events. Thus, our goal was to shring the gap as much as possible.<br>
 <br>
@@ -15,13 +15,25 @@ The difficulty was lying on:
 - One target value has several rows for its breakdown of detail
 *Since the data is confidencial, this reposidoty represents only part of our work.<br>
 
-# Our solution highlishts
+## Our solution highlishts
 - Feeded NASA natural disaster data (earthquake)
 - To reduce variance, rigorously selected only the features that has significant marginal effect
 - Applied label encoding and hashing for encoding
-- To reduce overfitting, stacked combined Boostong and Bagging ()
+- To reduce overfitting, stacked combined Boostong and Bagging
 
-# Further work
+<p align="center">
+<img src="./03_Image/EarthquakeRisk.png" alt="Earthquake risk and premium" width="500">
+</p>
+
+<p align="center">
+<img src="./03_Image/ModelBuildingApproach.png" alt="Approach" width="500">
+</p>
+
+<p align="center">
+<img src="./03_Image/ShapValue.png" alt="Model interpretation" width="500">
+</p>
+
+## Further work
 - Although our model score was one of the top, there was problem in hasing of categorical variables - it was very specific to training data - thus, fix the hashing problem
 - Retain detail information by weight the value insured value etc.
 - Earthquake shap value has non linearity, it can be assumed from the data analysis that impact of earthquake is depending on the industry and country of the client, 
