@@ -1,6 +1,6 @@
 # SCOR Datathon 2021
 <p align="center">
-<img src="./03_Image/SCOR-DS-2021.png" alt="SCOR-Datathon" width="500">
+<img src="./03_Image/SCOR-DS-2021.png" alt="SCOR-Datathon" width="400">
 </p>
 
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
@@ -22,15 +22,15 @@ The difficulty was lying on:
 - To reduce overfitting, stacked combined Boostong and Bagging
 
 <p align="center">
-<img src="./03_Image/EarthquakeRisk.png" alt="Earthquake risk and premium" width="500">
+<img src="./03_Image/EarthquakeRisk.png" alt="Earthquake risk and premium" width="600">
 </p>
-
+<br>
 <p align="center">
-<img src="./03_Image/ModelBuildingApproach.png" alt="Approach" width="500">
+<img src="./03_Image/ModelBuildingApproach.png" alt="Approach" width="600">
 </p>
-
+<br>
 <p align="center">
-<img src="./03_Image/ShapValue.png" alt="Model interpretation" width="500">
+<img src="./03_Image/ShapValue.png" alt="Model interpretation" width="600">
 </p>
 
 ## Further work
