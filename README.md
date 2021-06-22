@@ -30,7 +30,7 @@ The difficulty was lying on:
 </p>
 <br><br><br>
 <p align="center">
-<img src="./03_Image/ShapValue.png" alt="Model interpretation" width="700">
+<img src="./03_Image/ShapValue.png" alt="Model interpretation" width="800">
 </p>
 
 ## Further work
