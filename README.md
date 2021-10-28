@@ -11,8 +11,8 @@ In recent years, the gap between the amount of modeled premium and actual premiu
 The difficulty was lying on:
 - Large variation in categorical variables (country and industry), which increases the variance and could not be simply one-hot-encoded 
 - Extreme values which could not be treated as outliers and high variance in target data with relatively small number of observations
-- One target value has several rows for its breakdown of detail
-*Since the data is confidencial, this reposidoty represents only part of our work.<br>
+- One premium value contanis several detailed regions or business unites, which have to be captured somehow.
+*Since the data is confidencial, this repository represents only part of our work.<br>
 
 ## Solution highlishts
 - Feeded NASA natural disaster data (earthquake)
