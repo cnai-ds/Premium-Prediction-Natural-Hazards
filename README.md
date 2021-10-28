@@ -5,9 +5,8 @@
 
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
 
-## About competition
-Data science master students from grandes écoles including X and ESCP had worked 4 months building a model to predict premium of propaty damage and business interuption. <br>
-In recent years, the gap between market agreed premium and the reference premium has been increasing, due to the unpredictability of catastorophic events. Thus, our goal was to shring the gap as much as possible.<br>
+## Project context and objectives
+In recent years, the gap between the amount of modeled premium and actual premium has been increasing for property damage and business interruption insurance policies, due to the increase of unpredictable catastorophic events. Thus, as a reninsurance comany, they want to minimize the gap as much as possible to reduce the losses, by leveraging the data science.<br>
 <br>
 The difficulty was lying on:
 - Large variation in categorical variables (country and industry), which increases the variance and could not be simply one-hot-encoded 
@@ -15,7 +14,7 @@ The difficulty was lying on:
 - One target value has several rows for its breakdown of detail
 *Since the data is confidencial, this reposidoty represents only part of our work.<br>
 
-## Our solution highlishts
+## Solution highlishts
 - Feeded NASA natural disaster data (earthquake)
 - To reduce variance, rigorously selected only the features that has significant marginal effect
 - Applied label encoding and hashing for encoding
