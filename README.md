@@ -1,6 +1,6 @@
 # Prediction of market premium
 <p align="center">
-<img src="./03_Image/SCOR-DS-2021.png" alt="SCOR-Datathon" width="400">
+<img src="./03_Image/client map.png" alt="SCOR-Datathon" width="400">
 </p>
 
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
