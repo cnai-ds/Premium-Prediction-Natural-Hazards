@@ -6,13 +6,14 @@
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
 
 ## Project context and objectives
-In recent years, the gap between the amount of modeled premium and actual premium has been increasing for property damage and business interruption insurance policies, due to the increase of unpredictable catastorophic events. Thus, as a reninsurance comany, they want to minimize the gap as much as possible to reduce the losses, by leveraging the data science.<br>
+In recent years, the gap between the amount of initially agreed premium (market premium) and actual premium has been increasing for property damage and business interruption insurance policies, due to the increase of unpredictable catastorophic events. This means that reinsurance companies are at the risk of paying the cost. <br>
+Thus, as a reninsurance comany, they want to minimize the gap as much as possible to reduce the losses, by leveraging the data science.<br>
 <br>
 The difficulty was lying on:
 - Large variation in categorical variables (country and industry), which increases the variance and could not be simply one-hot-encoded 
 - Extreme values which could not be treated as outliers and high variance in target data with relatively small number of observations
 - One premium value contanis several detailed regions or business unites, which have to be captured somehow.
-*Since the data is confidencial, this repository represents only part of our work.<br>
+*Since the data is confidencial, this repository represents only part of the work.<br>
 
 ## Solution highlishts
 - Feeded NASA natural disaster data (earthquake)
@@ -31,6 +32,9 @@ The difficulty was lying on:
 <p align="center">
 <img src="./03_Image/ShapValue.png" alt="Model interpretation" width="800">
 </p>
+
+## Result
+Our final model was one of the top among the others and could predict the market premium with root mean square error of $98,131, which is significantly a good performance given the range of premium values.
 
 ## Further work
 - Although our model score was one of the top, there was problem in hasing of categorical variables - it was very specific to training data - thus, fix the hashing problem
