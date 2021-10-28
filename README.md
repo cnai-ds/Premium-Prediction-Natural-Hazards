@@ -1,4 +1,4 @@
-# SCOR Datathon 2021 Polytechnique x ESCP
+# Prediction of market premium
 <p align="center">
 <img src="./03_Image/SCOR-DS-2021.png" alt="SCOR-Datathon" width="400">
 </p>
