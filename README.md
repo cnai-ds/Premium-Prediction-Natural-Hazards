@@ -37,7 +37,7 @@ The difficulty was lying on:
 Our final model was one of the top among the others and could predict the market premium with root mean square error of $98,131, which is significantly a good performance given the range of premium values.
 
 ## Further work
-- Although our model score was one of the top, there was problem in hasing of categorical variables - it was very specific to training data - thus, fix the hashing problem
-- Retain detail information by weight the value insured value etc.
+- Although our model score was one of the top, there was problem in hasing of categorical variables - it was specific to training data - thus, the hashing method have to be generalized.
+- Retain the detailed information by weighting the market premium by subdivisional characteristics, instead of applying simple average.
 - Earthquake shap value has non linearity, it can be assumed from the data analysis that impact of earthquake is depending on the industry and country of the client, 
 for example Japan is faced with numerous earthquake risks but at the same time the infrustructure is one of the strongest in the world so would not cause property damage.
